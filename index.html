@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Jha | Data Analytics & Cloud Computing Engineer</title>
+    <meta name="description"
+        content="Portfolio of Abhishek Jha - B.Tech CSE student at Vivekananda Global University, Jaipur. Aspiring Data Analytics & Cloud Computing Engineer skilled in Python, SQL, Power BI, Excel, AWS, C, and MERN Stack.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Ambient Background Glow Effects -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo-container" aria-label="Home">
+                <div class="logo-badge">AJ</div>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="resume/rusume.jpg" target="_blank" class="btn btn-outline nav-resume-btn">Download Resume</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <!-- Hero Left Column: Profile Avatar & Floating Badges -->
+                <div class="hero-avatar-wrapper">
+                    <div class="avatar-glow-ring"></div>
+                    <div class="orbit-ring"></div>
+                    <div class="orbit-ring orbit-ring-inner"></div>
+
+                    <!-- Main Avatar Image -->
+                    <div class="avatar-frame">
+                        <img src="images/profile/abhishek.jpeg" alt="Abhishek Jha" class="avatar-img">
+                    </div>
+
+                    <!-- 6 Floating Tech Badges -->
+                    <div class="tech-badge badge-python" title="Python">
+                        <img src="icons/skills/python.png" alt="Python Icon" class="badge-icon">
+                    </div>
+                    <div class="tech-badge badge-java" title="Java">
+                        <img src="icons/skills/java.png" alt="Java Icon" class="badge-icon">
+                    </div>
+                    <div class="tech-badge badge-github" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="tech-badge badge-html" title="HTML5">
+                        <img src="icons/skills/html.png" alt="HTML Icon" class="badge-icon">
+                    </div>
+                    <div class="tech-badge badge-js" title="JavaScript">
+                        <img src="icons/skills/javascript.png" alt="JS Icon" class="badge-icon">
+                    </div>
+                    <div class="tech-badge badge-ai" title="AI & ML">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                </div>
+
+                <!-- Hero Right Column: Intro Text & Action CTAs -->
+                <div class="hero-content">
+                    <div class="status-pill">
+                        <span class="status-dot"></span>
+                        <span>B.Tech CSE @ VGU Jaipur • Cloud & Data Analytics</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="white-text">Abhishek Jha</span><br>
+                        <span class="gradient-text">Data Analytics &</span><br>
+                        <span class="gradient-text-alt">Cloud Engineer</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Aspiring Data Analytics & Cloud Computing Engineer | B.Tech CSE | Python | SQL | Power BI | Excel | AWS Learner | Greater Jaipur Area
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#skills" class="btn btn-primary">View My Skills</a>
+                        <a href="resume/rusume.jpg" target="_blank" class="btn btn-secondary">Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/AbhishekJha07" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhishek-jha-7b644a26b" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:ajha74916@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title">Technical Skills</h2>
+
+                <div class="skills-grid">
+                    <!-- Card 1: Python -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <img src="icons/skills/python.png" alt="Python" class="skill-img-icon">
+                        </div>
+                        <h3 class="skill-title">Python</h3>
+                        <p class="skill-desc">Data analysis, scripting, logic & algorithmic problem solving.</p>
+                    </div>
+
+                    <!-- Card 2: SQL -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box font-icon-fallback sql-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3 class="skill-title">SQL</h3>
+                        <p class="skill-desc">Database queries, schema design & relational data management.</p>
+                    </div>
+
+                    <!-- Card 3: Power BI -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box font-icon-fallback css-icon">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+                        <h3 class="skill-title">Power BI</h3>
+                        <p class="skill-desc">Interactive dashboards, data modeling & business intelligence.</p>
+                    </div>
+
+                    <!-- Card 4: Excel -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box font-icon-fallback sql-icon">
+                            <i class="fa-solid fa-file-excel"></i>
+                        </div>
+                        <h3 class="skill-title">Excel</h3>
+                        <p class="skill-desc">Advanced data analytics, formulas, pivot tables & reporting.</p>
+                    </div>
+
+                    <!-- Card 5: AWS & Cloud -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box font-icon-fallback ai-icon">
+                            <i class="fa-brands fa-aws"></i>
+                        </div>
+                        <h3 class="skill-title">AWS Learner</h3>
+                        <p class="skill-desc">Cloud computing fundamentals, EC2, S3 & scalable architecture.</p>
+                    </div>
+
+                    <!-- Card 6: C Programming -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <img src="icons/skills/c.png" alt="C Language" class="skill-img-icon">
+                        </div>
+                        <h3 class="skill-title">C Programming</h3>
+                        <p class="skill-desc">Core programming, memory structures & system logic.</p>
+                    </div>
+
+                    <!-- Card 7: JavaScript -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <img src="icons/skills/javascript.png" alt="JavaScript" class="skill-img-icon">
+                        </div>
+                        <h3 class="skill-title">JavaScript</h3>
+                        <p class="skill-desc">Client-side scripting, async operations & dynamic UI development.</p>
+                    </div>
+
+                    <!-- Card 8: MERN Stack -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box font-icon-fallback css-icon">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <h3 class="skill-title">MERN Stack</h3>
+                        <p class="skill-desc">Full-stack web applications (MongoDB, Express, React, Node.js).</p>
+                    </div>
+
+                    <!-- Card 9: DSA -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <img src="icons/skills/dsa.png" alt="Data Structures & Algorithms" class="skill-img-icon">
+                        </div>
+                        <h3 class="skill-title">Data Structures & Algorithms</h3>
+                        <p class="skill-desc">Efficient algorithms, optimization & core problem solving.</p>
+                    </div>
+
+                    <!-- Card 10: Data Science & AI -->
+                    <div class="skill-card featured-skill-card">
+                        <div class="skill-icon-box font-icon-fallback ai-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="skill-title">Data Science & AI</h3>
+                        <p class="skill-desc">Data analytics, predictive models & emerging AI technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-card">
+                    <div class="about-content">
+                        <p>
+                            I am <strong>Abhishek Jha</strong>, a B.Tech Computer Science and Engineering student at <strong>Vivekananda Global University, Jaipur</strong>. Passionate about technology and problem-solving, I have a strong foundation in programming, algorithms, and emerging fields like AI, Data Science, Data Analytics, and Cloud Computing.
+                        </p>
+                        <p>
+                            Alongside academics, I actively participate in cultural and technical events, building teamwork, adaptability, and leadership skills. With a disciplined learning approach and a focus on continuous growth, I aim to contribute effectively in both academic and professional environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Kisan Sahayak -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/projects/project-1.png" alt="Kisan Sahayak - AI Based Farmer Query & Advisory System" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">AI Based Farmer Query & Advisory System</h3>
+                            <p class="project-desc">
+                                AI-powered platform assisting farmers with real-time crop advisory, disease diagnosis,
+                                fertilizer recommendations, weather insights, and market rates.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag tag-py">Python</span>
+                                <span class="tag tag-ai">AI & ML</span>
+                                <span class="tag tag-web">Flask</span>
+                                <span class="tag tag-html">Web</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/AbhishekJha07" target="_blank" class="btn-link btn-github">GitHub</a>
+                                <a href="https://kisan-sahayak-tau.vercel.app/" target="_blank" class="btn-link btn-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: 3D React Portfolio -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/projects/project-2.png" alt="React 3D Interactive Portfolio Preview" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">React 3D Interactive Portfolio</h3>
+                            <p class="project-desc">
+                                Interactive 3D developer portfolio web application featuring modern desktop interactive
+                                experiences, smooth animations, and responsive components.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag tag-js">React</span>
+                                <span class="tag tag-web">Three.js</span>
+                                <span class="tag tag-html">JavaScript</span>
+                                <span class="tag tag-css">CSS3</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/AbhishekJha07" target="_blank" class="btn-link btn-github">GitHub</a>
+                                <a href="https://react-portfolio-omega-woad.vercel.app/" target="_blank" class="btn-link btn-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/projects/project-3.png" alt="Sketch Demo Preview" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Sketch Demo</h3>
+                            <p class="project-desc">
+                                Machine learning web application with canvas digit recognition and neural network
+                                inference.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag tag-html">HTML</span>
+                                <span class="tag tag-js">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/AbhishekJha07" target="_blank" class="btn-link btn-github">GitHub</a>
+                                <a href="#" class="btn-link btn-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey & Education Section -->
+        <section id="journey" class="journey-section">
+            <div class="section-container">
+                <h2 class="section-title">Education & Certifications</h2>
+
+                <div class="timeline">
+                    <!-- Education -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Education</span>
+                            <h3>Vivekananda Global University</h3>
+                            <p>Bachelor of Technology - B.Tech, Computer Science and Engineering (Greater Jaipur Area).</p>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Certifications</span>
+                            <h3>Virtual Internship Program</h3>
+                            <p>Completed Virtual Internship focused on industry software practices & real-world projects.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Certifications</span>
+                            <h3>PBEL 2.3 - Web & Mobile Development</h3>
+                            <p>Hands-on project-based experiential learning program for web and mobile development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container contact-flex-container">
+                <div class="contact-card-wrapper">
+                    <div class="contact-card">
+                        <h2 class="contact-title">Let's Build Something<br>Amazing Together</h2>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="formName" placeholder="Name" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="formEmail" placeholder="Email" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="formMessage" rows="4" placeholder="Message" required
+                                    class="form-input"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </form>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com/AbhishekJha07" target="_blank" class="contact-social-icon"
+                                aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/abhishek-jha-7b644a26b" target="_blank" class="contact-social-icon"
+                                aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:ajha74916@gmail.com" class="contact-social-icon" aria-label="Email"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Abhishek Jha. All rights reserved.</p>
+            <a href="#home" class="back-to-top" aria-label="Back to Top">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div id="toastNotification" class="toast">
+        <i class="fa-solid fa-circle-check"></i> Message sent successfully!
+    </div>
+
+    <!-- JavaScript Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
